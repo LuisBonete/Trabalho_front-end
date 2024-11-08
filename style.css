@@ -21,14 +21,9 @@ nav {
     z-index: 10;
 }
 
-.logo img {
-    height: 40px;
-    position: relative;
-    display: block;
-    margin-left: -300px
-}
-
 .center-logo img {
+    position: absolute;
+    left: 50px;
     height: 100px; /* Ajuste conforme o tamanho desejado */
 }
 

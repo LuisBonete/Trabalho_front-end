@@ -154,7 +154,7 @@ input:checked ~ .slide {
 }
 
 .banner {
-    position: relative;
+    position: absolute;
     height: 100vh;
     display: flex;
     justify-content: center;

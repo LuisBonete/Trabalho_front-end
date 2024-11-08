@@ -124,7 +124,7 @@ input:checked ~ .slide {
     transform: translateX(0);
 }
 
-.banner {
+#backgroud-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -132,53 +132,4 @@ input:checked ~ .slide {
     top: 0;
     left: 0;
     z-index: -1;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.5));
-}
-
-.navigation {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 0 20px;
-}
-
-.nav-left, .nav-right {
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-    user-select: none;
-}
-
-.pagination {
-    position: absolute;
-    bottom: 20px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.dot {
-    height: 8px;
-    width: 8px;
-    margin: 0 5px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    opacity: 0.5;
-    transition: opacity 0.3s;
-}
-
-.dot.active {
-    opacity: 1;
 }

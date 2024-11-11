@@ -21,6 +21,10 @@ Motivos e decisões:
   Videos página inicial: Pexels.com, SHutterstock.com
   Sadbar e Navbar: códigos antigos 
   Imagens: Wallpapers.com
-  
+
+  https://pt.wallpapers.com/carro-hd-1920x1080
+https://www.pexels.com/pt-br/video/lamborghini-automotivo-automotor-automobilistico-14052141/
+https://www.shutterstock.com/pt/video/clip-1043668723-light-leaks-bokeh-transitions-arts-footage
+
   
   

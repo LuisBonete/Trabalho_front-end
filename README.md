@@ -6,7 +6,7 @@ feature:
   .carrosel: ao ir na página modelos você vai parar em um carrosel, que quando clicado muda a imagem do veiculo o nome do modelo e o botão com as informações e dados 
   
 Navegação:
-  Nosso site é bem simples pois tem apenas 4 paginas: pagina inicial, pagina do modelos, pagina dos contatos, pagina de informacoes e dados nossos. Essas pagina podem ser acessadas pelo menu que está no canto esquerdo na barra de navegação. ou então você pode ir com o scroll do mause para baixo 
+  Nosso site é bem simples pois tem apenas 4 paginas: pagina inicial, pagina do modelos, pagina dos contatos, pagina de informacoes e dados nossos. Essas pagina podem ser acessadas pelo menu que está no canto esquerdo na barra de navegação. ou então você pode ir com o scroll do mause para baixo.
 
   Página de navegação: aparece nosso modelo de carro mais recente o "Venturo" onde tem um botão para acessar as informações sobre o veiculo.
   Página de Modelos: é um carrosel que mostra as fotos de nossos veiculos onde tem um botão com as informacões sobre os modelos.

@@ -80,6 +80,25 @@ nav {
     font-weight: 300;
 }
 
+.subtitulo2 {
+    position: relative;
+    top: 30%;
+    right: 20%;
+    font-size: 150%;
+    font-weight: 400;
+    color: white;
+}
+
+.subtitulo3 {
+    position: relative;
+    top: 43%;
+    right: 63%;
+    font-size: 150%;
+    font-weight: 100;
+    color: white;
+}
+
+
 .titulo {
     position: relative;
     top: 10px;

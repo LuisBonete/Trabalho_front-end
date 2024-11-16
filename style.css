@@ -74,8 +74,7 @@ nav {
 }
 
 .subtitulo {
-    position: relative;
-    top: 30px;
+    margin-top: 30px;
     font-size: 24px;
     font-weight: 300;
 }
@@ -84,7 +83,7 @@ nav {
     position: relative;
     top: 30%;
     right: 20%;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 400;
     color: white;
 }
@@ -93,15 +92,13 @@ nav {
     position: relative;
     top: 43%;
     right: 63%;
-    font-size: 150%;
+    font-size: 1.5rem;
     font-weight: 100;
     color: white;
 }
 
-
 .titulo {
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
     font-size: 48px;
     font-weight: 700;
 }
@@ -112,10 +109,10 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255,);
+    background-color: rgba(255, 255, 255, 1);
     border: none;
     cursor: pointer;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 }
 
 .botao2 {
@@ -127,14 +124,10 @@ nav {
     background-color: rgb(32, 32, 32);
     border: none;
     cursor: pointer;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 }
 
-.botao:hover{
-    opacity: 0.7;
-}
-
-.botao2:hover{
+.botao:hover, .botao2:hover {
     opacity: 0.7;
 }
 
@@ -192,7 +185,7 @@ input:checked ~ .slide {
 
 .banner2 {
     position: relative;
-    top: 730px;
+    top: 900px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -219,3 +212,4 @@ input:checked ~ .slide {
     left: 0;
     z-index: -1;
 }
+

@@ -6,8 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+    background-color: rgb(231, 231, 231);
 }
+
 
 nav {
     width: 100%;
@@ -25,7 +26,6 @@ nav {
     position: absolute;
     display: flex;
     justify-content: center;
-    left: 47.5%;
     top: -4%;
     height: 100%; /* Ajuste conforme o tamanho desejado */
 }
@@ -67,7 +67,69 @@ nav {
     transform: translateX(10px);
 }
 
-.botao:hover, .botao2:hover {
+.content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.subtitulo2 {
+    position: relative;
+    top: 30%;
+    right: 20%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.subtitulo3 {
+    position: relative;
+    top: 43%;
+    right: 63%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.titulo {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.botao2 {
+    padding: 11px 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.botao:hover,
+.botao2:hover {
     opacity: 0.7;
 }
 
@@ -93,9 +155,17 @@ input {
     transition: 0.3s ease;
 }
 
-.toggle .top_line { top: 30%; }
-.toggle .middle_line { top: 50%; }
-.toggle .bottom_line { top: 70%; }
+.toggle .top_line {
+    top: 30%;
+}
+
+.toggle .middle_line {
+    top: 50%;
+}
+
+.toggle .bottom_line {
+    top: 70%;
+}
 
 input:checked ~ .toggle .top_line {
     transform: rotate(45deg) translate(3.5px, 5px);
@@ -113,68 +183,93 @@ input:checked ~ .slide {
     transform: translateX(0);
 }
 
+h1{
+    text-align: center;
+    padding-top: 80px;
+margin-bottom: -20px;}
 
-main {
-    position: absolute;
-    left: 35%;
-    top: 10%;
-    padding: 40px 20px;
-}
-
-h2 {
-    font-size: 3rem;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transform: translate(65px);
-}
-
-.locations {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .location-grid {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    align-items: center;
+    gap: 20px; /* Reduziu o espaço entre os itens */
 }
 
 .location {
-    position: relative;
-    width: 80%;
-    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffffc2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
 }
 
+.locations {
+    position: relative;
+    top: 0px; /* Ajuste conforme necessário */
+    max-width: 900px; /* Reduziu a largura */
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+}
+
+main {
+    padding-top: 100px; /* Espaço para evitar sobreposição */
+}
 .location:hover {
-    opacity: 0.7;
+    transform: scale(1.03);
+}
+
+.location.reverse {
+    flex-direction: row-reverse;
 }
 
 .location img {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 50%;
+    border-radius: 3;
 }
 
 .location-info {
+    flex: 1;
     padding: 20px;
-    background-color: #f9f9f9;
 }
 
 .location-info h3 {
-    font-size: 1.8rem;
     margin-bottom: 10px;
-    color: black;
-    text-transform: uppercase;
+    font-size: 1.8rem;
 }
 
-.location-info p {
-    font-size: 1rem;
-    margin: 5px 0;
-    color: #686868;
+
+.location-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
 }
+.locations h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+
+.location-info p {
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #202020d9;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+

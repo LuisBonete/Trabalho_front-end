@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>Lucio Montaire | Site Oficial</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teste.css">
 </head>
 
 <body>
@@ -25,9 +25,9 @@
             <div class="slide">
                 <ul>
                     <li><a href="conheca.html">História</a></li>
-                    <li><a href="#">Modelos</a></li>
-                    <li><a href="fisica.html">Lojas Físicas</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="modelos.html">Modelos</a></li>
+                    <li><a href="lojas.html">Lojas Físicas</a></li>
+                    <li><a href="#contato">Contatos</a></li>
                 </ul>
             </div>
         </label>
@@ -40,26 +40,103 @@
             <ion-icon name="person"></ion-icon>
         </div>
     </nav>
+    
+    <!-- Seção de Vídeo -->
+<section class="video-section">
+    <video autoplay muted loop>
+        <source src="videodedemostracao.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
 
-        <div class="banner">
-        <video id="background-video" src="https://github.com/LuisBonete/Trabalho_front-end/raw/refs/heads/main/videodedemostracao.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
-        </video>
+</section>
+
+
+<!-- Seção de Banner -->
+<div class="content">
+    <h3 class="subtitulo">Novidade</h3>
+    <h1 class="titulo">Aventador</h1>
+    <div class="botoes">
+        <button class="botao" onclick="window.location.href='aventador.html';">Ver Modelo</button>
+        <button class="botao2" onclick="window.location.href='#modelos';">Outros Modelos</button>
+    </div>
+</div>
+
+<section class="historia">
+    <h2 class="titulo-historia">Nossa História</h2>
+    <p class="texto-historia">
+        Desde 1905, Montaire Lucio é sinônimo de liberdade e inovação. 
+        Nossos veículos não são apenas máquinas, mas um convite para 
+        explorar o mundo e realizar sonhos.
+    </p>
+
+    <a href="conheca.html" class="btn-historia">Saiba mais sobre nossa história</a>
+</section>
+
+<section id="modelos" class="models">
+    <div class="models-header">
+        <h2>Modelos Disponíveis</h2>
+        <p>Confira nossos modelos exclusivos que estão à venda</p>
+    </div>
+    <div class="models-grid">
+        <div class="model-card">
+            <img src="https://image.stern.de/30610304/t/2d/v2/w1440/r0/-/10--artikel25274bild01jpg---09bb2d7db76eb942.jpg" alt="Modelo 1">
+            <h3>Lamborghini Aventador</h3>
+            <p>Supercarro com motor V12, acelera de 0 a 100 km/h em 2,9 segundos e atinge mais de 350 km/h. Um ícone de performance e design agressivo.</p>
+            <a href="#" class="btn">Saiba Mais</a>
         </div>
-        <div class="content">
-            <h3 class="subtitulo">Novidade</h3>
-            <h1 class="titulo">Aventador</h1>
-            <button class="botao" onclick="window.location.href='loja.html';">Explore</button>
-            <button class="botao2">Customizar</button>
-            </div>
-        <div class="banner2">
-            <img src="carro1.jpg" alt="carro">
+        <div class="model-card">
+            <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2016/11/150203488-01.jpeg?quality=70&strip=info&w=928&w=636" alt="Modelo 2">
+            <h3>Ferrari 488 GTB</h3>
+            <p>Com motor V8 biturbo de 670 cv, acelera de 0 a 100 km/h em 3 segundos. Combina potência e luxo com um design marcante..</p>
+            <a href="#" class="btn">Saiba Mais</a>
         </div>
-        <div class="banner3">
-            <video id="background-video2" src="falas.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
-            <h3 class="subtitulo2">"Na nossa loja, não vendemos apenas carros, <br>
-                vendemos a liberdade de ir onde seu sonho te levar!"</h3>
-            <h4 class="subtitulo3">Montaire Lucio, 1905</h3>
+        <div class="model-card">
+            <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2022/08/2023-Porsche-911-GT3-RS-00013-e1660752815540.jpg?crop=1&resize=1212,909" alt="Modelo 3">
+            <h3>Porsche 911 GT3 RS</h3>
+            <p>Carro esportivo com motor 4.0 de 6 cilindros, produzindo 520 cv. Acelera de 0 a 100 km/h em 3,2 segundos. Focado em desempenho e precisão em pista, com um design aerodinâmico excepcional.</p>
+            <a href="#" class="btn">Saiba Mais</a>
         </div>
+        <div class="model-card">
+            <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2022/10/Maserati-GranTurismo-Modena-1-e1664838533184.jpg?crop=1&resize=1212,909" alt="Modelo 4">
+            <h3>Maserati GranTurismo</h3>
+            <p>Carro de luxo com motor V8 de 4,7 litros. Desempenho excelente e design italiano refinado, ideal para quem busca elegância e conforto.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+        <div class="model-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDVP9WW60yzrCVZ7ks6-9l7RhVfgVpv9yhW2XW9X38M0NO0_NJ81CTQLZtu9XnkaxKZE&usqp=CAU" alt="Modelo 5">
+            <h3> Aston Martin DB11</h3>
+            <p>Motor V12 de 5,2 litros. Combina desempenho sublime, luxo e design sofisticado, oferecendo uma experiência única de direção.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+        <div class="model-card">
+            <img src="https://assets.autoweek.nl/m/xp8yh09bjrgc_800.jpg" alt="Modelo 6">
+            <h3>McLaren 720S</h3>
+            <p>Supercarro com motor V8 twin-turbo de 720 cv. Acelera de 0 a 100 km/h em 2,7 segundos e oferece performance e design de alto nível.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+    </div>
+</section>
+
 </body>
-
+<!-- Rodapé -->
+<footer id="contato" class="footer-section">
+    <div class="footer-logo">
+        <img src="https://github.com/LuisBonete/Trabalho_front-end/blob/main/logocompleta.png?raw=true" alt="Logo">
+    </div>
+    <div class="footer-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#modelos">Modelos</a></li>
+            <li><a href="conheca.html">História</a></li>
+            <li><a href="">Contato (ao lado)</a></li>
+            <li><a href="lojas.html">Lojas Físicas</a></li>
+        </ul>
+    </div>
+    <div class="footer-contact">
+        <p>Endereço: Rua Exemplo, 123</p>
+        <p>Email: contato@montaire.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </div>
+    <p class="footer-copy">© 2024 Lucio Montaire. Todos os direitos reservados.</p>
+</footer>
 </html>

@@ -181,13 +181,13 @@ body {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffffff;
-    color: #000;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 10px;
-    transition: 0.3s;
+    background-color: #000000d8; /* Cor do botão */
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    border-radius: 0px; /* Borda arredondada */
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Transição suave */
 }
 
 .btn:hover {
